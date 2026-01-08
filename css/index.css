@@ -88,7 +88,7 @@
 .best-product {
     width: 100%;
     height: auto;
-    padding-top: 3vh;
+    padding-top: 1vh;
     margin-bottom: 10vh;
 }
 
@@ -101,19 +101,18 @@
 .best-product-items {
     margin-top: 6vh;
 }
-
+.container-fluid .row{
+    margin-left: 2vw;
+}
 .item-box {
-    height: 440px;
     width: 270px;
-    margin-top: 75px;
+    min-height: 440px;
     background-image: url('../img/produk-bg-1.png');
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    padding-top: 40%;
-    border-radius: 10px;
+    border-radius: 12px;
 }
-
 .item-image {
     background-color: red;
     width: 220px;
@@ -123,6 +122,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 .item-text {
     text-align: center;
@@ -134,13 +134,9 @@
     font-size: 24px;
     line-height: 30px;
 }
-
 .separate-line {
     width: 60%;
     height: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 auto;
     background-color: white;
 }
 
@@ -325,4 +321,43 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .container-fluid .row{
+        margin-left: 0;
+    }
+    .item-box {
+        width: 240px;
+    }
+    
+    .item-image {
+        width: 170px;
+        height: 120px;
+        top: -30px;
+        transform: translateX(-50%);
+    }
+
+    .item-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .text-harga {
+        font-size: 18px;
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+
+    .text-harga-normal{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .text-harga-up{
+        color: #f1ae32;
+        font-size: 52px;
+        font-weight: bold;
+    }
+    
+    .desc-sort{
+        font-size: 19px;
+    }
 }
+
