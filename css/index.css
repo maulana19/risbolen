@@ -1,13 +1,23 @@
 @font-face {
-    font-family: "California Vibes";
+    font-family: "california-vibes";
     src: url("../fonts/calivornia-vibes/California\ Vibes.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Kg Red Hands";
+    font-family: "red-hand";
     src: url("../fonts/kg-red-hand/KGRedHands.ttf") format("opentype");
 }
 
+.nav-title{
+    font-family: "red-hand";
+    font-weight: 100;
+    font-size: 16px;
+}
+.nav-menu{
+    font-family: "red-hand";
+    font-weight: 100;
+    font-size: 15px;
+}
 
 .border-shadow-bottom {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -70,7 +80,9 @@
 }
 
 .about-title-text h2 {
+    font-family: 'red-hand';
     font-weight: 700;
+    color: #633d0a;
 }
 
 .about-content {
@@ -82,7 +94,10 @@
 
 .about-content-text {
     text-align: left;
-    font-size: 23px;
+    font-size: 19px;
+    font-family: 'red-hand';
+    font-weight: lighter;;
+    color: #633d0a;
 }
 
 .best-product {
@@ -96,6 +111,12 @@
     text-align: center;
     /* background-color: aliceblue; */
     height: fit-content;
+}
+
+.best-product-text h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'california-vibes';
 }
 
 .best-product-items {
@@ -129,8 +150,9 @@
 }
 
 .item-title {
+    font-family: 'red-hand';
     color: #f1ae32;
-    font-size: 24px;
+    font-size: 19px;
     line-height: 30px;
 }
 .separate-line {
@@ -141,7 +163,8 @@
 
 .text-harga {
     color: #f1ae32;
-    font-size: 22px;
+    font-family: 'red-hand';
+    font-size: 18px;
     margin-top: 4px;
     margin-bottom: 3px;
 }
@@ -156,8 +179,8 @@
 }
 .sort-menu {
     display: flex;
-    flex-direction: row;   /* ⬅️ WAJIB */
-    flex-wrap: wrap;       /* ⬅️ agar overflow turun ke bawah */
+    flex-direction: row;  
+    flex-wrap: wrap;      
     justify-content: center;
     gap: 6px;
 }
@@ -175,7 +198,8 @@
 }
 .text-harga-up{
     color: #f1ae32;
-    font-size: 76px;
+    font-family: 'red-hand';
+    font-size: 65px;
     font-weight: bold;
 }
 .box-desc{
@@ -185,8 +209,9 @@
     margin-top: 25px;
 }
 .desc-sort{
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'red-hand';
     color: white;
 }
 
@@ -202,8 +227,9 @@
 }
 
 .item-title-2{
+    font-family: 'red-hand';
     color:#7e5303;
-    font-size: 24px;
+    font-size: 19px;
     line-height: 30px;
 }
 
@@ -214,8 +240,9 @@
 }
 
 .text-harga-2{
+    font-family: 'red-hand';
     color:#7e5303;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 4px;
     margin-bottom: 3px;
 }
@@ -231,20 +258,24 @@
 
 .text-harga-up-2{
     color:#7e5303;
-    font-size: 73px;
+    font-family: 'red-hand';
+    font-size: 65px;
     font-weight: bold;
 }
 
 .desc-sort-2{
     color:#7e5303;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'red-hand';
     font-weight: bold;
 }
 
 .btn-show-menu{
+    font-family: 'california-vibes';
     background-color: #7e5303;
     padding: 7px;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     border: 0;
@@ -261,6 +292,12 @@
     text-align: center;
 }
 
+.product-title h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'california-vibes';
+}
+
 .sort-text{
     margin-top: 7vh;
 }
@@ -270,10 +307,16 @@
 }
 
 .item-active{
+    font-family: 'california-vibes';
+    font-size: 26px;
+    font-weight: 300;
     color: black;
 }
 
 .item-nonaktif{
+    font-family: 'california-vibes';
+    font-size: 25px;
+    font-weight: 300;
     color: rgb(102, 102, 102);
 }
 
@@ -286,8 +329,13 @@
     width: 100%;
 }
 
-.news{
+.gallery{
     margin-top: 10vh;
+}
+.gallery-title{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'california-vibes';
 }
 
 .card{
@@ -301,7 +349,7 @@
     height: auto;
 }
 
-.card .news-text{
+.card .gallery-text{
     position: absolute;
     margin-top: 15vw;
     margin-left: 2vw;
@@ -309,22 +357,36 @@
     color: white;
     font-weight: bold;
 }
-.btn-show-news{
+
+.btn-show-gallery{
+    font-family: 'california-vibes';
     background-color: #7e5303;
     padding: 7px;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     border: 0;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 30px;
 }
+
 
 .contact{
     margin-top: 10vh;
 }
 
+.contact-title{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'california-vibes';
+}
+
+.contact-item{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'california-vibes';
+}
 
 /* .contact-list{
     display: flex;
@@ -355,7 +417,7 @@
         margin-top: 10px;
         text-align: center;
         margin-top: 20px;
-        padding-left: 15px;
+        padding-left: 23px;
         padding-right: 15px;
     }
     
@@ -363,11 +425,21 @@
         padding-top: 0px;
         padding-left: 20px;
     }
+    
+    .about-logo img{
+        width: 40px;
+    }
     .container-fluid .row{
         margin-left: 0;
     }
+    .best-product-text h2{
+        font-size: 34px;
+    }
+    .best-product-items{
+        margin-top: 3px;
+    }
     .item-box {
-        width: 240px;
+        width: 270px;
         border-radius: 14px;
     }
     
@@ -379,51 +451,63 @@
     }
 
     .item-title {
-        font-size: 20px;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .item-title-2 {
+        font-size: 19px;
         line-height: 30px;
     }
     
     .text-harga {
         font-size: 18px;
-        margin-top: 4px;
-        margin-bottom: 3px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+    .text-harga-2 {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-bottom: 0px;
     }
 
     .text-harga-normal{
         font-size: 27px;
         font-weight: 700;
     }
-    .text-harga-up{
-        color: #f1ae32;
-        font-size: 52px;
-        font-weight: bold;
-    }
-    
-    .desc-sort{
-        font-size: 19px;
-    }
-    
-    .item-title-2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    
-    .text-harga-2 {
-        font-size: 18px;
-        margin-top: 4px;
-        margin-bottom: 3px;
-    }
-
     .text-harga-normal-2{
         font-size: 27px;
         font-weight: 700;
+    }
+
+    .text-harga-up{
+        font-size: 52px;
+        font-weight: bold;
     }
     .text-harga-up-2{
         font-size: 52px;
         font-weight: bold;
     }
     
+    .desc-sort{
+        font-size: 16px;
+    }
     .desc-sort-2{
-        font-size: 19px;
+        font-size: 16px;
+    }
+
+    .btn-show-menu{
+        font-size: 20px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 90px;
+    }
+    .btn-show-gallery{
+        font-size: 20px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 90px;
+    }
+    .contact-title{
+        margin-left: 40px;
     }
 }
