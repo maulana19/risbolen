@@ -209,7 +209,7 @@
     margin-top: 25px;
 }
 .desc-sort{ 
-    font-size: 12px;
+    font-size: 11.9px;
     font-weight: 100;
     line-height: 2;
     font-family: 'red-hand';
@@ -383,16 +383,21 @@
     font-family: 'california-vibes';
 }
 
-/* .contact-list{
+.footer{
     display: flex;
-    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 120px;
+    background-color: lightgray;
 }
-
-.contact-list li{
-    padding: 0 10px;
-    vertical-align: middle;
-} */
-
+.footer-text{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'california-vibes';
+}
 
 
 @media (max-width:863px) {
@@ -484,7 +489,7 @@
     }
     
     .desc-sort{
-        font-size: 14px;
+        font-size: 12px;
     }
     .desc-sort-2{
         font-size: 16px;
@@ -504,5 +509,12 @@
     }
     .contact-title{
         margin-left: 40px;
+    }
+    .footer{
+        height: 50px;
+        margin-top: 60px;
+    }
+    .footer-text{
+        font-size: 30px;
     }
 }
