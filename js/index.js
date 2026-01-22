@@ -24,7 +24,7 @@ function renderItems() {
             if (showAllProduct || visibleCount < LIMITProduct) {
                 item.style.display = "block";
                 item.className =
-                    "product-item-all col-12 col-sm-6 col-md-3 d-flex justify-content-center";
+                    "product-item-all col-6 col-sm-6 col-md-3 d-flex justify-content-center";
                 visibleCount++;
             } else {
                 item.style.display = "none";
@@ -124,14 +124,14 @@ bestItem.forEach((data) => {
         if(card.classList.contains("item-box-2")){
             card.className = "item-box position-relative text-center pt-5"
             cardtitle2.className = "item-title fw-bold mb-2"
-            cardline2.className = "separate-line mx-auto mb-2"
+            cardline2.className = "separate-line mx-auto"
             boxDesc.style.display = "block"
             boxHarga.style.display = "none"
 
         }else{
             card.className = "item-box-2 position-relative text-center pt-5"
             cardtitle.className = "item-title-2 fw-bold mb-2"
-            cardline.className = "separate-line-2 mx-auto mb-2"
+            cardline.className = "separate-line-2 mx-auto"
             boxDesc.style.display = "none"
             boxHarga.style.display = "block"
         }
